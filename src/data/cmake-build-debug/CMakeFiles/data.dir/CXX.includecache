@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yujie/project/regression_algorithm/src/data/make_dataset.cpp
+iostream
+-
+fstream
+-
+vector
+-
+iterator
+-
+string
+-
+algorithm
+-
+boost/algorithm/string.hpp
+-
+
