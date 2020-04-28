@@ -6,6 +6,24 @@
 
 #IncludeRegexTransform: 
 
+/home/yujie/project/regression_algorithm/src/data/CSV_reader.h
+iostream
+-
+string
+-
+vector
+-
+boost/algorithm/string.hpp
+-
+
+/home/yujie/project/regression_algorithm/src/data/dataset.h
+blaze/math/DynamicMatrix.h
+-
+vector
+-
+utility
+-
+
 /home/yujie/project/regression_algorithm/src/data/make_dataset.cpp
 iostream
 -
@@ -20,5 +38,15 @@ string
 algorithm
 -
 boost/algorithm/string.hpp
+-
+CSV_reader.h
+/home/yujie/project/regression_algorithm/src/data/CSV_reader.h
+dataset.h
+/home/yujie/project/regression_algorithm/src/data/dataset.h
+iomanip
+-
+blaze/math/DynamicMatrix.h
+-
+blaze/math/Columns.h
 -
 

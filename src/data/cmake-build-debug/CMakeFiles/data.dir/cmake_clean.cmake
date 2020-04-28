@@ -1,5 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/data.dir/CSV_reader.cpp.o"
+  "CMakeFiles/data.dir/dataset.cpp.o"
   "CMakeFiles/data.dir/make_dataset.cpp.o"
+  "CMakeFiles/data.dir/test.cpp.o"
   "data"
   "data.pdb"
 )

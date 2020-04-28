@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/yujie/Downloads/clion-201.6487.17/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/111/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/yujie/Downloads/clion-201.6487.17/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/111/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -70,17 +70,62 @@ CMakeFiles/data.dir/make_dataset.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/data.dir/make_dataset.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yujie/project/regression_algorithm/src/data/make_dataset.cpp -o CMakeFiles/data.dir/make_dataset.cpp.s
 
+CMakeFiles/data.dir/CSV_reader.cpp.o: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/CSV_reader.cpp.o: ../CSV_reader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yujie/project/regression_algorithm/src/data/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/data.dir/CSV_reader.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/data.dir/CSV_reader.cpp.o -c /home/yujie/project/regression_algorithm/src/data/CSV_reader.cpp
+
+CMakeFiles/data.dir/CSV_reader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/data.dir/CSV_reader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yujie/project/regression_algorithm/src/data/CSV_reader.cpp > CMakeFiles/data.dir/CSV_reader.cpp.i
+
+CMakeFiles/data.dir/CSV_reader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/data.dir/CSV_reader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yujie/project/regression_algorithm/src/data/CSV_reader.cpp -o CMakeFiles/data.dir/CSV_reader.cpp.s
+
+CMakeFiles/data.dir/test.cpp.o: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/test.cpp.o: ../test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yujie/project/regression_algorithm/src/data/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/data.dir/test.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/data.dir/test.cpp.o -c /home/yujie/project/regression_algorithm/src/data/test.cpp
+
+CMakeFiles/data.dir/test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/data.dir/test.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yujie/project/regression_algorithm/src/data/test.cpp > CMakeFiles/data.dir/test.cpp.i
+
+CMakeFiles/data.dir/test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/data.dir/test.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yujie/project/regression_algorithm/src/data/test.cpp -o CMakeFiles/data.dir/test.cpp.s
+
+CMakeFiles/data.dir/dataset.cpp.o: CMakeFiles/data.dir/flags.make
+CMakeFiles/data.dir/dataset.cpp.o: ../dataset.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yujie/project/regression_algorithm/src/data/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/data.dir/dataset.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/data.dir/dataset.cpp.o -c /home/yujie/project/regression_algorithm/src/data/dataset.cpp
+
+CMakeFiles/data.dir/dataset.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/data.dir/dataset.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yujie/project/regression_algorithm/src/data/dataset.cpp > CMakeFiles/data.dir/dataset.cpp.i
+
+CMakeFiles/data.dir/dataset.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/data.dir/dataset.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yujie/project/regression_algorithm/src/data/dataset.cpp -o CMakeFiles/data.dir/dataset.cpp.s
+
 # Object files for target data
 data_OBJECTS = \
-"CMakeFiles/data.dir/make_dataset.cpp.o"
+"CMakeFiles/data.dir/make_dataset.cpp.o" \
+"CMakeFiles/data.dir/CSV_reader.cpp.o" \
+"CMakeFiles/data.dir/test.cpp.o" \
+"CMakeFiles/data.dir/dataset.cpp.o"
 
 # External object files for target data
 data_EXTERNAL_OBJECTS =
 
 data: CMakeFiles/data.dir/make_dataset.cpp.o
+data: CMakeFiles/data.dir/CSV_reader.cpp.o
+data: CMakeFiles/data.dir/test.cpp.o
+data: CMakeFiles/data.dir/dataset.cpp.o
 data: CMakeFiles/data.dir/build.make
 data: CMakeFiles/data.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yujie/project/regression_algorithm/src/data/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable data"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yujie/project/regression_algorithm/src/data/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable data"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/data.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

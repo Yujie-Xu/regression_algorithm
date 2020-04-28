@@ -84,7 +84,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/yujie/project/regression_algorithm/src/data/CSV_reader.cpp">
+			<Option target="data"/>
+		</Unit>
+		<Unit filename="/home/yujie/project/regression_algorithm/src/data/CSV_reader.h">
+			<Option target="data"/>
+		</Unit>
+		<Unit filename="/home/yujie/project/regression_algorithm/src/data/dataset.cpp">
+			<Option target="data"/>
+		</Unit>
+		<Unit filename="/home/yujie/project/regression_algorithm/src/data/dataset.h">
+			<Option target="data"/>
+		</Unit>
 		<Unit filename="/home/yujie/project/regression_algorithm/src/data/make_dataset.cpp">
+			<Option target="data"/>
+		</Unit>
+		<Unit filename="/home/yujie/project/regression_algorithm/src/data/test.cpp">
 			<Option target="data"/>
 		</Unit>
 		<Unit filename="/home/yujie/project/regression_algorithm/src/data/CMakeLists.txt">

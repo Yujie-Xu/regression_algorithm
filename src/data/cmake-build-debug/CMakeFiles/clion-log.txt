@@ -1,4 +1,4 @@
-/home/yujie/Downloads/clion-201.6487.17/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/yujie/project/regression_algorithm/src/data
+/snap/clion/111/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/yujie/project/regression_algorithm/src/data
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/yujie/project/regression_algorithm/src/data/cmake-build-debug
