@@ -102,6 +102,12 @@
 		<Unit filename="/home/yujie/project/regression_algorithm/src/data/test.cpp">
 			<Option target="data"/>
 		</Unit>
+		<Unit filename="/home/yujie/project/regression_algorithm/src/models/MLR.cpp">
+			<Option target="data"/>
+		</Unit>
+		<Unit filename="/home/yujie/project/regression_algorithm/src/models/MLR.h">
+			<Option target="data"/>
+		</Unit>
 		<Unit filename="/home/yujie/project/regression_algorithm/src/data/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

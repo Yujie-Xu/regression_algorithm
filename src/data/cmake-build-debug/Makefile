@@ -177,6 +177,33 @@ dataset.cpp.s:
 	$(MAKE) -f CMakeFiles/data.dir/build.make CMakeFiles/data.dir/dataset.cpp.s
 .PHONY : dataset.cpp.s
 
+home/yujie/project/regression_algorithm/src/models/MLR.o: home/yujie/project/regression_algorithm/src/models/MLR.cpp.o
+
+.PHONY : home/yujie/project/regression_algorithm/src/models/MLR.o
+
+# target to build an object file
+home/yujie/project/regression_algorithm/src/models/MLR.cpp.o:
+	$(MAKE) -f CMakeFiles/data.dir/build.make CMakeFiles/data.dir/home/yujie/project/regression_algorithm/src/models/MLR.cpp.o
+.PHONY : home/yujie/project/regression_algorithm/src/models/MLR.cpp.o
+
+home/yujie/project/regression_algorithm/src/models/MLR.i: home/yujie/project/regression_algorithm/src/models/MLR.cpp.i
+
+.PHONY : home/yujie/project/regression_algorithm/src/models/MLR.i
+
+# target to preprocess a source file
+home/yujie/project/regression_algorithm/src/models/MLR.cpp.i:
+	$(MAKE) -f CMakeFiles/data.dir/build.make CMakeFiles/data.dir/home/yujie/project/regression_algorithm/src/models/MLR.cpp.i
+.PHONY : home/yujie/project/regression_algorithm/src/models/MLR.cpp.i
+
+home/yujie/project/regression_algorithm/src/models/MLR.s: home/yujie/project/regression_algorithm/src/models/MLR.cpp.s
+
+.PHONY : home/yujie/project/regression_algorithm/src/models/MLR.s
+
+# target to generate assembly for a file
+home/yujie/project/regression_algorithm/src/models/MLR.cpp.s:
+	$(MAKE) -f CMakeFiles/data.dir/build.make CMakeFiles/data.dir/home/yujie/project/regression_algorithm/src/models/MLR.cpp.s
+.PHONY : home/yujie/project/regression_algorithm/src/models/MLR.cpp.s
+
 make_dataset.o: make_dataset.cpp.o
 
 .PHONY : make_dataset.o
@@ -246,6 +273,9 @@ help:
 	@echo "... dataset.o"
 	@echo "... dataset.i"
 	@echo "... dataset.s"
+	@echo "... home/yujie/project/regression_algorithm/src/models/MLR.o"
+	@echo "... home/yujie/project/regression_algorithm/src/models/MLR.i"
+	@echo "... home/yujie/project/regression_algorithm/src/models/MLR.s"
 	@echo "... make_dataset.o"
 	@echo "... make_dataset.i"
 	@echo "... make_dataset.s"
